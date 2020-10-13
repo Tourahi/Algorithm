@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1602604128 source:/home/maro/Git/CPP/Algorithm/main.cpp
+	<iostream>
+	"recursion.h"
+
+1602604049 /home/maro/Git/CPP/Algorithm/recursion.h
+
+1602604059 source:/home/maro/Git/CPP/Algorithm/src/recursion.cpp
+	<iostream>
+	<string>
+	"../recursion.h"
+

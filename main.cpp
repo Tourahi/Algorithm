@@ -1,9 +1,10 @@
 #include <iostream>
+#include "recursion.h"
 
-using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    std::string s;
+    Binary(3,s);
     return 0;
 }
