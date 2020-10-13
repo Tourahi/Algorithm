@@ -1,6 +1,6 @@
 # Algorithm
 
-This Rep, contains the examples from the book :
+This Repository contains the examples from the book :
 
 ## Data Structures and Algorithms - Narasimha Karumanchi
 
