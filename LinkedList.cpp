@@ -13,7 +13,6 @@ void LinkedList::listLength() {
         size++;
         current = current->next;
     }
-    size++;
 }
 
 int LinkedList::getSize() {
@@ -75,6 +74,49 @@ void LinkedList::insertPos(int data,int pos) {
     }
 }
 
+int LinkedList::deleteStart() {
+    Node* tmp = Head;
+    Head = Head->next;
+    int data = tmp->data;
+    delete tmp;
+    return data;
+}
+
+int LinkedList::deleteEnd() {
+    Node* tmp = Head;
+    Node* bfrtmp;
+    while(tmp->next != NULL) {
+        bfrtmp = tmp;
+        tmp = tmp->next;
+    }
+    bfrtmp->next = NULL;
+    int data = tmp->data;
+    delete tmp;
+    return data;
+}
+
+int LinkedList::deletePos(int pos) {
+    if(pos >= 0 && pos <= getSize()) {
+        int k = 0; //Position indicator
+        Node* tmp = Head;
+        Node* bfrtmp;
+        if(k != pos) {
+            while(tmp->next != NULL && k < pos) {
+                k++;
+                bfrtmp = tmp;
+                tmp = tmp->next;
+            }
+            bfrtmp->next = tmp->next;
+            int data = tmp->data;
+            delete tmp;
+            return data;
+        }else {
+            int data = deleteStart();
+            return data;
+        }
+    }
+}
+
 void LinkedList::Show(){
     if(Head == NULL) {
         std::cout << "List is Empty" << std::endl;
@@ -85,6 +127,7 @@ void LinkedList::Show(){
                   << "->" ;
         list = list->next;
     }
+    std::cout << "" << std::endl;
 }
 
 

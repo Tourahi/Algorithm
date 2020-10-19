@@ -17,10 +17,17 @@ public:
     void insertStart(int data);
     void insertEnd(int data);
     void insertPos(int data,int pos);
-    void Show();
+
+    //Deleting
+    int deleteStart();
+    int deleteEnd();
+    int deletePos(int pos);
 
     //Getters
     int getSize();
+
+    //Utils
+    void Show();
 };
 
 

@@ -11,7 +11,9 @@ int main()
     list.insertEnd(4);
     list.insertPos(5,2);
     list.Show();
-    std::cout << "" << std::endl;
+    //Delete POS
+    list.deletePos(5);
+    list.Show();
     std::cout << list.getSize() << std::endl;
     return 0;
 }
