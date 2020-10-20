@@ -1,19 +1,20 @@
 #include <iostream>
 //#include "recursion.h"
-#include "LinkedList.h"
+#include "DlinkedList.h"
 
 int main()
 {
-    LinkedList list;
+    DlinkedList list;
     list.insertStart(1);
     list.insertStart(2);
     list.insertStart(3);
     list.insertEnd(4);
-    list.insertPos(5,2);
+    list.insertPos(100,2);
     list.Show();
-    //Delete POS
-    list.deletePos(5);
+    list.deleteStart();
+    list.deleteEnd();
     list.Show();
-    std::cout << list.getSize() << std::endl;
+    list.deletePos(0);
+    list.Show();
     return 0;
 }

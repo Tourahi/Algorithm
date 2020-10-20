@@ -74,7 +74,7 @@ void LinkedList::insertPos(int data,int pos) {
     }
 }
 
-int LinkedList::deleteStart() {
+int LinkedList::deleteStart() { // Test if empty !!
     Node* tmp = Head;
     Head = Head->next;
     int data = tmp->data;
@@ -82,7 +82,7 @@ int LinkedList::deleteStart() {
     return data;
 }
 
-int LinkedList::deleteEnd() {
+int LinkedList::deleteEnd() { // Test if empty !!
     Node* tmp = Head;
     Node* bfrtmp;
     while(tmp->next != NULL) {

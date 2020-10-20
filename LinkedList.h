@@ -12,7 +12,7 @@ class LinkedList {
 
 public:
     LinkedList();
-    void listLength();
+
     // Inserting
     void insertStart(int data);
     void insertEnd(int data);
@@ -28,6 +28,7 @@ public:
 
     //Utils
     void Show();
+    void listLength();
 };
 
 
