@@ -1,20 +1,18 @@
 #include <iostream>
 //#include "recursion.h"
-#include "DlinkedList.h"
+#include "ClinkedList.h"
 
 int main()
 {
-    DlinkedList list;
-    list.insertStart(1);
-    list.insertStart(2);
-    list.insertStart(3);
+    ClinkedList list;
+    list.insertEnd(1);
+    list.insertEnd(3);
     list.insertEnd(4);
-    list.insertPos(100,2);
-    list.Show();
-    list.deleteStart();
-    list.deleteEnd();
-    list.Show();
-    list.deletePos(0);
+    list.insertEnd(5);
+    list.insertStart(100);
+//    list.deleteEnd();
+//    list.deleteEnd();
+//    list.deleteStart();
     list.Show();
     return 0;
 }
