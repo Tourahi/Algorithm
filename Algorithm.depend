@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
-1603453881 source:/home/maro/Git/CPP/Algorithm/main.cpp
+1604307433 source:/home/maro/Git/CPP/Algorithm/main.cpp
 	<iostream>
-	"ClinkedList.h"
+	"Stack.h"
 
 1602604049 /home/maro/Git/CPP/Algorithm/recursion.h
 
@@ -27,4 +27,11 @@
 	"ClinkedList.h"
 
 1603450505 /home/maro/Git/CPP/Algorithm/ClinkedList.h
+
+1604307357 /home/maro/Git/CPP/Algorithm/Stack.h
+
+1604307446 source:/home/maro/Git/CPP/Algorithm/Stack.cpp
+	<iostream>
+	<string>
+	"Stack.h"
 
