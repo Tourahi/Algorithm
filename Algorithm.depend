@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
-1604307433 source:/home/maro/Git/CPP/Algorithm/main.cpp
+1604934217 source:/home/maro/Git/CPP/Algorithm/main.cpp
 	<iostream>
-	"Stack.h"
+	"Queue.h"
 
 1602604049 /home/maro/Git/CPP/Algorithm/recursion.h
 
@@ -34,4 +34,10 @@
 	<iostream>
 	<string>
 	"Stack.h"
+
+1604934236 source:/home/maro/Git/CPP/Algorithm/Queue.cpp
+	<iostream>
+	"Queue.h"
+
+1604933847 /home/maro/Git/CPP/Algorithm/Queue.h
 

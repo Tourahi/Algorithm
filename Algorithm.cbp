@@ -38,6 +38,8 @@
 		<Unit filename="DlinkedList.h" />
 		<Unit filename="LinkedList.cpp" />
 		<Unit filename="LinkedList.h" />
+		<Unit filename="Stack.cpp" />
+		<Unit filename="Stack.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="recursion.h" />
 		<Unit filename="src/recursion.cpp" />

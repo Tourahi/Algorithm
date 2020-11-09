@@ -1,23 +1,40 @@
 #include <iostream>
 //#include "recursion.h"
 //#include "ClinkedList.h"
-#include "Stack.h"
+#include "Queue.h"
 
 int main()
 {
-    Stack S(4);
+    Queue Q(4);
 
-    S.Push(1);
-    S.Push(2);
-    S.Push(3);
-    S.Push(4);
-    S.print();
+    Q.enqueue(1);
+    Q.enqueue(2);
+    Q.enqueue(3);
+    Q.enqueue(4);
+    Q.print();
     try{
-        S.Push(5);
+        Q.enqueue(5);
     }catch(const char* err) {
         std::cout << err << std::endl;
-        S.print();
+        Q.print();
     }
+
+
+
+
+//    Stack S(4);
+//
+//    S.Push(1);
+//    S.Push(2);
+//    S.Push(3);
+//    S.Push(4);
+//    S.print();
+//    try{
+//        S.Push(5);
+//    }catch(const char* err) {
+//        std::cout << err << std::endl;
+//        S.print();
+//    }
 
 
 //    list.insertEnd(1);
