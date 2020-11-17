@@ -1,23 +1,25 @@
 #include <iostream>
 //#include "recursion.h"
 //#include "ClinkedList.h"
-#include "Queue.h"
+#include "CircularQueue.h"
 
 int main()
 {
-    Queue Q(4);
+    CircularQueue Q(4);
 
-    Q.enqueue(1);
-    Q.enqueue(2);
-    Q.enqueue(3);
-    Q.enqueue(4);
+    Q.EnQueue(1);
+    Q.EnQueue(2);
+    Q.EnQueue(3);
+
     Q.print();
-    try{
-        Q.enqueue(5);
-    }catch(const char* err) {
-        std::cout << err << std::endl;
-        Q.print();
-    }
+    Q.DeQueue();
+    Q.DeQueue();
+    Q.DeQueue();
+    Q.DeQueue();
+    Q.EnQueue(1);
+    Q.EnQueue(2);
+    Q.EnQueue(3);
+    Q.print();
 
 
 

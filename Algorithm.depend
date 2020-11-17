@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
-1604934217 source:/home/maro/Git/CPP/Algorithm/main.cpp
+1605629894 source:/home/maro/Git/CPP/Algorithm/main.cpp
 	<iostream>
-	"Queue.h"
+	"CircularQueue.h"
 
 1602604049 /home/maro/Git/CPP/Algorithm/recursion.h
 
@@ -40,4 +40,10 @@
 	"Queue.h"
 
 1604933847 /home/maro/Git/CPP/Algorithm/Queue.h
+
+1605629903 source:/home/maro/Git/CPP/Algorithm/CircularQueue.cpp
+	<iostream>
+	"CircularQueue.h"
+
+1605629867 /home/maro/Git/CPP/Algorithm/CircularQueue.h
 
